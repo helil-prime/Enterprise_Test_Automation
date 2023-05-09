@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.903" tests="9" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/primetech/Documents/PrimetechWorkSpace/PrimeTechJavaWorkspace/Enterprise_Test_Automation/target/test-classes:/Users/primetech/Documents/PrimetechWorkSpace/PrimeTechJavaWorkspace/Enterprise_Test_Automation/target/classes:/Users/primetech/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/primetech/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/primetech/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/primetech/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/primetech/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/primetech/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/primetech/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/primetech/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/primetech/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/primetech/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/primetech/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/primetech/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/primetech/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/primetech/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/primetech/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/primetech/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/primetech/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/primetech/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/primetech/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/primetech/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/primetech/.m2/repository/io/cucumber/cucumber-java/6.11.0/cucumber-java-6.11.0.jar:/Users/primetech/.m2/repository/io/cucumber/cucumber-core/6.11.0/cucumber-core-6.11.0.jar:/Users/primetech/.m2/repository/io/cucumber/cucumber-gherkin/6.11.0/cucumber-gherkin-6.11.0.jar:/Users/primetech/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.11.0/cucumber-gherkin-messages-6.11.0.jar:/Users/primetech/.m2/repository/io/cucumber/messages/15.0.0/messages-15.0.0.jar:/Users/primetech/.m2/repository/io/cucumber/tag-expressions/3.0.1/tag-expressions-3.0.1.jar:/Users/primetech/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/primetech/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/primetech/.m2/repository/io/cucumber/cucumber-plugin/6.11.0/cucumber-plugin-6.11.0.jar:/Users/primetech/.m2/repository/io/cucumber/docstring/6.11.0/docstring-6.11.0.jar:/Users/primetech/.m2/repository/io/cucumber/html-formatter/13.0.0/html-formatter-13.0.0.jar:/Users/primetech/.m2/repository/io/cucumber/create-meta/4.0.0/create-meta-4.0.0.jar:/Users/primetech/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/primetech/.m2/repository/io/cucumber/cucumber-junit/6.11.0/cucumber-junit-6.11.0.jar:/Users/primetech/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/primetech/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/primetech/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.1.0.0/ojdbc8-21.1.0.0.jar:/Users/primetech/.m2/repository/mysql/mysql-connector-java/8.0.28/mysql-connector-java-8.0.28.jar:/Users/primetech/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar:/Users/primetech/.m2/repository/io/github/bonigarcia/webdrivermanager/4.4.3/webdrivermanager-4.4.3.jar:/Users/primetech/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/primetech/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/primetech/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/primetech/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/primetech/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/primetech/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/primetech/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/Users/primetech/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/primetech/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/primetech/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/primetech/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/primetech/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/primetech/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/primetech/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/primetech/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/primetech/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/Users/primetech/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/primetech/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/primetech/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/primetech/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/primetech/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/primetech/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/primetech/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/primetech/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/primetech/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/primetech/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/primetech/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/primetech/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/primetech/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/primetech/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/primetech/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/primetech/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/primetech/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/primetech/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.0.4.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/primetech/Documents/PrimetechWorkSpace/PrimeTechJavaWorkspace/Enterprise_Test_Automation/target/surefire/surefirebooter13484000553155210632.jar /Users/primetech/Documents/PrimetechWorkSpace/PrimeTechJavaWorkspace/Enterprise_Test_Automation/target/surefire 2023-05-08T21-16-32_690-jvmRun1 surefire12195069783967333536tmp surefire_018430304951475528228tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/primetech/Documents/PrimetechWorkSpace/PrimeTechJavaWorkspace/Enterprise_Test_Automation/target/test-classes:/Users/primetech/Documents/PrimetechWorkSpace/PrimeTechJavaWorkspace/Enterprise_Test_Automation/target/classes:/Users/primetech/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/primetech/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/primetech/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/primetech/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/primetech/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/primetech/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/primetech/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/primetech/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/primetech/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/primetech/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/primetech/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/primetech/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/primetech/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/primetech/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/primetech/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/primetech/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/primetech/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/primetech/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/primetech/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/primetech/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/primetech/.m2/repository/io/cucumber/cucumber-java/6.11.0/cucumber-java-6.11.0.jar:/Users/primetech/.m2/repository/io/cucumber/cucumber-core/6.11.0/cucumber-core-6.11.0.jar:/Users/primetech/.m2/repository/io/cucumber/cucumber-gherkin/6.11.0/cucumber-gherkin-6.11.0.jar:/Users/primetech/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.11.0/cucumber-gherkin-messages-6.11.0.jar:/Users/primetech/.m2/repository/io/cucumber/messages/15.0.0/messages-15.0.0.jar:/Users/primetech/.m2/repository/io/cucumber/tag-expressions/3.0.1/tag-expressions-3.0.1.jar:/Users/primetech/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/primetech/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/primetech/.m2/repository/io/cucumber/cucumber-plugin/6.11.0/cucumber-plugin-6.11.0.jar:/Users/primetech/.m2/repository/io/cucumber/docstring/6.11.0/docstring-6.11.0.jar:/Users/primetech/.m2/repository/io/cucumber/html-formatter/13.0.0/html-formatter-13.0.0.jar:/Users/primetech/.m2/repository/io/cucumber/create-meta/4.0.0/create-meta-4.0.0.jar:/Users/primetech/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/primetech/.m2/repository/io/cucumber/cucumber-junit/6.11.0/cucumber-junit-6.11.0.jar:/Users/primetech/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/primetech/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/primetech/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.1.0.0/ojdbc8-21.1.0.0.jar:/Users/primetech/.m2/repository/mysql/mysql-connector-java/8.0.28/mysql-connector-java-8.0.28.jar:/Users/primetech/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar:/Users/primetech/.m2/repository/io/github/bonigarcia/webdrivermanager/4.4.3/webdrivermanager-4.4.3.jar:/Users/primetech/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/primetech/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/primetech/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/primetech/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/primetech/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/primetech/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/primetech/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/Users/primetech/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/primetech/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/primetech/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/primetech/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/primetech/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/primetech/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/primetech/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/primetech/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/primetech/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/Users/primetech/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/primetech/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/primetech/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/primetech/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/primetech/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/primetech/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/primetech/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/primetech/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/primetech/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/primetech/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/primetech/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/primetech/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/primetech/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/primetech/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/primetech/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/primetech/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/primetech/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/primetech/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/primetech"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.0.4.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/primetech/Documents/PrimetechWorkSpace/PrimeTechJavaWorkspace/Enterprise_Test_Automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/primetech/Documents/PrimetechWorkSpace/PrimeTechJavaWorkspace/Enterprise_Test_Automation/target/surefire/surefirebooter13484000553155210632.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="user.name" value="primetech"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.5.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/primetech/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/_c/mrh3_0_j35jcycwdn9_5vsz80000gn/T/"/>
+    <property name="java.version" value="17.0.4.1"/>
+    <property name="user.dir" value="/Users/primetech/Documents/PrimetechWorkSpace/PrimeTechJavaWorkspace/Enterprise_Test_Automation"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/primetech/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="createApet" classname="api_tests.PetStoreTests" time="2.59">
+    <system-out><![CDATA[{
+    "id": 712,
+    "category": {
+        "id": 21,
+        "name": "Dog"
+    },
+    "name": "Mountain",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 21999,
+            "name": "M_21999"
+        }
+    ],
+    "status": "pending"
+}
+Mountain
+Dog
+712
+pending
+M_21999
+]]></system-out>
+  </testcase>
+  <testcase name="createApet_with_json_file" classname="api_tests.PetStoreTests" time="0.017">
+    <failure message="./src/test/resources/json_files/createApet.json (No such file or directory)" type="java.io.FileNotFoundException"><![CDATA[java.io.FileNotFoundException: ./src/test/resources/json_files/createApet.json (No such file or directory)
+	at api_tests.PetStoreTests.createApet_with_json_file(PetStoreTests.java:188)
+]]></failure>
+  </testcase>
+  <testcase name="findPetsByStatus" classname="api_tests.PetStoreTests" time="0.135"/>
+  <testcase name="findPetsByStatus_providingQueryParam" classname="api_tests.PetStoreTests" time="0.092">
+    <system-out><![CDATA[[
+    {
+        "id": 12,
+        "category": {
+            "id": 0,
+            "name": "dogs"
+        },
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 13,
+        "category": {
+            "id": 0,
+            "name": "cats"
+        },
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 23688827,
+        "category": {
+            "id": 38199557,
+            "name": "officia in"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "culpa aliqua do Ut",
+            "pariatur non qui"
+        ],
+        "tags": [
+            {
+                "id": -59409203,
+                "name": "irure id dolor D"
+            },
+            {
+                "id": -8983193,
+                "name": "amet Duis"
+            }
+        ],
+        "status": "sold"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="petNotFound" classname="api_tests.PetStoreTests" time="0.101">
+    <system-out><![CDATA[{
+    "code": 1,
+    "type": "error",
+    "message": "Pet not found"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteThePet" classname="api_tests.PetStoreTests" time="0.091">
+    <system-out><![CDATA[{
+    "code": 200,
+    "type": "unknown",
+    "message": "712"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="findAPetById" classname="api_tests.PetStoreTests" time="0.095">
+    <failure message="expected [200] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [404]
+	at api_tests.PetStoreTests.findAPetById(PetStoreTests.java:132)
+]]></failure>
+  </testcase>
+  <testcase name="findAPetById_chainValidation" classname="api_tests.PetStoreTests" time="0.095">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at api_tests.PetStoreTests.findAPetById_chainValidation(PetStoreTests.java:154)
+]]></failure>
+    <system-out><![CDATA[{
+    "code": 1,
+    "type": "error",
+    "message": "Pet not found"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updatePet" classname="api_tests.PetStoreTests" time="0.13">
+    <system-out><![CDATA[{
+    "id": 712,
+    "category": {
+        "id": 21,
+        "name": "Dog"
+    },
+    "name": "Shadow",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 21999,
+            "name": "M_21999"
+        }
+    ],
+    "status": "available"
+}
+Shadow
+Dog
+712
+available
+M_21999
+]]></system-out>
+  </testcase>
+</testsuite>

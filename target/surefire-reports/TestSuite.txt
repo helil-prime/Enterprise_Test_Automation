@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 3.903 s <<< FAILURE! - in TestSuite
+api_tests.PetStoreTests.createApet_with_json_file  Time elapsed: 0.017 s  <<< FAILURE!
+java.io.FileNotFoundException: ./src/test/resources/json_files/createApet.json (No such file or directory)
+	at api_tests.PetStoreTests.createApet_with_json_file(PetStoreTests.java:188)
+
+api_tests.PetStoreTests.findAPetById  Time elapsed: 0.095 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
+	at api_tests.PetStoreTests.findAPetById(PetStoreTests.java:132)
+
+api_tests.PetStoreTests.findAPetById_chainValidation  Time elapsed: 0.095 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at api_tests.PetStoreTests.findAPetById_chainValidation(PetStoreTests.java:154)
+

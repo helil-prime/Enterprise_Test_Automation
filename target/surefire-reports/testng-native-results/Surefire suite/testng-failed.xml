@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="api_tests.PetStoreTests">
+        <methods>
+          <include name="findAPetById"/>
+          <include name="setup"/>
+          <include name="createApet"/>
+          <include name="findAPetById_chainValidation"/>
+          <include name="createApet_with_json_file"/>
+        </methods>
+      </class> <!-- api_tests.PetStoreTests -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

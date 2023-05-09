@@ -1,0 +1,146 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-09T01:13:51.522Z",
+        "line": 5,
+        "name": "As a User, I am able to select different departments and search",
+        "description": "",
+        "id": "amazon-departments;as-a-user--i-am-able-to-select-different-departments-and-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12913913000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the amazon homepage",
+            "match": {
+              "location": "step_definitions.AmazonTests_steps.i_am_on_the_amazon_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28044100000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The departments dropdown is \"All Departments\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Departments\"",
+                  "offset": 28
+                }
+              ],
+              "location": "step_definitions.AmazonTests_steps.the_departments_dropdown_is(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1968733000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select the department \"Home \u0026 Kitchen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Home \u0026 Kitchen\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.AmazonTests_steps.i_select_the_department(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9320874000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I search \"Coffee mug\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Coffee mug\"",
+                  "offset": 9
+                }
+              ],
+              "location": "step_definitions.AmazonTests_steps.i_search(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8032000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be on \"Coffee mug\" search result page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Coffee mug\"",
+                  "offset": 15
+                }
+              ],
+              "location": "step_definitions.AmazonTests_steps.i_should_be_on_search_result_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 967202000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The departments dropdown is \"Home \u0026 Kitchen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Home \u0026 Kitchen\"",
+                  "offset": 28
+                }
+              ],
+              "location": "step_definitions.AmazonTests_steps.the_departments_dropdown_is(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@amazonTestDemo"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon departments",
+    "description": "",
+    "id": "amazon-departments",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AmazonTests.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
