@@ -20,7 +20,9 @@ src/test/resources
  - features - (Cucumber feature files are created within this folder to define scenarios for the feature)
  - testdata - (Test data / properties files are stored within this folder)
  - testfiles - (Test Json or any dummy files are stored here)
+
 pom.xml - (Project configurations, and content/library/dependencies management and build/run configuration)
+
 testng.xml - (TestNG test suite management and executions control)
 
 ## Tools used
