@@ -60,7 +60,7 @@ testng.xml - (TestNG test suite management and executions control)
   5. Create page classes under `pages` folder and define the page objects `(elements)`
   6. Implement the step definitions based on the scenario behaviours
   
-  Running the UI tests
+### Running the UI tests
   
   1. Create a runner class under `runners` folder
   2. Define the RunWith cucumber options with necessary options
@@ -79,7 +79,7 @@ testng.xml - (TestNG test suite management and executions control)
   2. Create a TestNG test and define the API test flow with RestAssured
   
   
-  Running the API tests:
+### Running the API tests:
   
   1. Run the particular API test class as a TestNg test
   2. To run the API tests remotely via a CI/CD tool like Jenkins, create a TestNG xml file,
